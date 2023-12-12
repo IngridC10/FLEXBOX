@@ -1,0 +1,52 @@
+body{
+    background-color: beige;
+}
+
+.caja{
+
+    border: 1px solid rgb(10,69,69);
+    background-color:pink;
+    color:black;
+    font-family:'Courier New','Courier New', Courier, monospace;
+    font-weight:bold;
+    width: 200px;
+    height: 120px;
+    line-height:200px;
+    text-align: center;
+    margin:5px;
+    line-height: 120px;
+
+
+}
+.flex-container{
+    display:flex;
+    border:1px solid black;
+    background: #ccc;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    height: 600px;
+    margin:0 auto;
+    align-items: center;
+    align-content: center;
+    justify-content:center;
+
+}
+.c1{
+ background-color: aqua;
+ order:2;
+ flex-grow: 1;
+ flex-basis: 50%;
+}
+.c2{
+    background-color: lightblue;
+    order:3;
+    flex-grow: 1;
+
+}
+.c3{
+    background-color: lightpink;
+    order:1;
+    flex-grow:1;
+}
